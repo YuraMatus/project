@@ -18,7 +18,7 @@ header {
 	background: url(../img/first-bg.jpg) no-repeat center top / cover;
 	
 
-	height: 1000px;
+	height: 650px;
 }
 
 .container {
@@ -46,6 +46,16 @@ nav {
 	float: left;
 	display: block;
 	margin-right: 41px;
+}
+.menu li:hover 
+{
+    color:aqua;
+    border-bottom: 1px solid #fed136;
+}
+.menu-footer li {
+	float: left;
+	display: block;
+	margin-left: 41px;
 }
 #about h2 {
     text-align: center;
@@ -92,7 +102,7 @@ h1 {
 }
 
 .title {
-	padding-top: 115px;
+	padding-top: 60px;
 }
 
 .title h2 {
@@ -112,7 +122,6 @@ h1 {
 
 
 .services-block{
-    margin-top: 80px;
 }
 .services__item	{
     margin: 20px;
@@ -132,26 +141,28 @@ h1 {
 	line-height: 1.55em;
 }
 #about {
-    margin-top: 270px;
 }
 
 .text-box-left {
-         margin-left: 610px;
-    float:left;
+    width:200px;
+    margin-left: 50px;
+    float: left;
 }
 
 .article-title {
     margin-bottom: 10px;
 }
 .article-content {
-    float: left;
     width: 250px;
     color: #777777;
 	font-size: 16px;
 	margin-top: 5px;
 }
-.full-box {
+.full-box-left {
+    display: inline-block;
     margin-top: 50px;
+margin-left: auto;
+    margin-right: auto;
 }
 .full-box-right {
     float:right;
@@ -159,8 +170,9 @@ h1 {
 }
 .text-box-right {
     
-    margin-right: 630px;
-    float:left;
+    width:200px;
+    margin-right: 50px;
+    float: right;
     
 }
 .copyright{
@@ -176,10 +188,7 @@ h1 {
 	font-size: 16px;
 	margin-top: 0px;
 }
-.article-image{
-    height: 150px;
-    margin-left: 10px;
-}
+
 .image-box-right {
     float:left;
     
@@ -191,11 +200,11 @@ h1 {
 
 #portfolio {
 	background: #f7f7f7;
-	padding-bottom: 120px;
+	padding-bottom: 80px;
 }
 
 .works {
-	margin-top: 70px;
+	margin-top: 60px;
 }
 
 .works img {
@@ -208,3 +217,57 @@ h1 {
 
 
 
+
+.image-box {
+    
+width:200px;
+margin-left: auto;
+margin-right: auto;}
+
+.article-image {
+    border-radius: 100px;
+}
+
+.text-box-left {
+    width: 300px;
+    float: left;
+}
+
+.full-box {
+    
+    width:930px;
+	margin: 40px auto;
+}
+
+.date {}
+
+.footer {
+    color:#c0c0c0;
+
+}
+
+.first-footer {
+        background-color: #606060;
+    min-height: 50px;
+
+}
+
+.logo-footer {
+    
+	margin-top: 10px;
+    margin-left: 50px;
+	float: left;
+
+}
+
+.second-footer {
+     background-color: #333333;
+    min-height: 30px;
+padding: 10px;
+}
+
+.menu-footer {
+    padding: 0;
+	margin: 0;
+	display: block;
+}
